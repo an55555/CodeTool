@@ -1,0 +1,12 @@
+### 格式化代码
+
+`CTRL+ALT+L`  MAC下 `command+option+L`
+
+### 寻找代码片断
+
+有时候我们需要寻找一些特定的样式或函数，只需要右键要寻找的目录，
+选择 find in path,输入要寻找的内容，webstorm就会自动寻找所有包含该内容的文件了。
+
+### 大小写转换
+
+Command（ctrl）+shift+U
