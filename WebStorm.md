@@ -22,15 +22,19 @@
 
 ### 生成带class的标签
 
-div.className => `<div class = "className"></div>`
+p.className => `<p class = "className"></p>`
+
+**如果生成是DIV，直接.classNam即可**
 
 ### 生成带ID的标签
 
-div.IdName => `<div id = "IdName"></div>`
+p.IdName => `<p id = "IdName"></p>`
+
+**如果生成是DIV，直接#IdName即可**
 
 ### 生成带属性的标签
 
-div[value=123] => `<div value = "123"></div>`
+div[value=123 tab=myTag] => `<div value = "123" tab = "Mytag"></div>`
 
 ### 生成带文本内容的标签
 
@@ -69,7 +73,7 @@ div>ul>li^div =>
 <div>
   <ul>
   <li></li>
-  </ul>
+  <ul></ul>
   <div></div>
 </div>
 ```
