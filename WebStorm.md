@@ -161,3 +161,11 @@ ul>li.item$@-3*5
     <li class="item3"></li>
 </ul>
 ```
+
+## 常用缩写
+
+a => `<a href=""></a>`
+
+br => `</br>`
+
+更多 https://www.w3cplus.com/tools/emmet-cheat-sheet.html
